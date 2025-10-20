@@ -2,7 +2,7 @@
 session_start();
 $usuario = $_POST['usuario'] ?? '';
 $senha = $_POST['senha'] ?? '';
-if ($usuario === 'admin' && $senha === '123') {
+if ($usuario === 'para' && $senha === 'béns') {
 $_SESSION['usuario'] = $usuario;
 echo "Login bem-sucedido! <a href='produtos.php'>Ir para produtos</a>";
 } else {
