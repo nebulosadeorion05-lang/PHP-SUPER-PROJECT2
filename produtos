@@ -4,7 +4,7 @@ if (!isset($_SESSION['usuario'])) {
 echo "Acesso negado. <a href='index.php'>Faça login</a>";
 exit;
 }
-$produtos = ['camisa', 'calça', 'sapato', 'boné', 'meia'];
+$produtos = ['Calça GUCCI', 'Casaco Dior', 'Perfume CHANNEL', 'Camisa Louis Vitton', 'Vestido Versace'];
 $filtro = $_GET['busca'] ?? '';
 echo "<h2>Olá, " . $_SESSION['usuario'] . "!</h2>";
 echo "<form method='GET'>
